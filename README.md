@@ -18,12 +18,11 @@
     </li>
     <li><a href="#key-features">Key Features</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 # About The Project
-A simple <i>knowledge based project</i> using different NLP libraries to generate MCQ Questions and Fill-in-the Blank Questions for exams which reduces manual work for lecturer/professors.
+A simple <i> knowledge-based project</i> using different NLP libraries to generate MCQ Questions and Fill-in-the Blank Questions for exams which reduces manual work for lecturers/professors.
 
 
 ## Built With
