@@ -23,15 +23,17 @@
 </details>
 
 # About The Project
-A simple <i>knowledge based system</i> using Fuzzy Logic to calculate the flow rate for watering system, based on current temperature, soil moisture and light intensity.
+A simple <i>knowledge based project</i> using different NLP libraries to generate MCQ Questions and Fill-in-the Blank Questions for exams which reduces manual work for lecturer/professors.
 
-> :warning: **Warning**: This project is for educational purposes only and doesn't help anything in real life.
 
 ## Built With
 * [![Python][Python-shield]][Python-url]
 * [![NumPy][NumPy-shield]][NumPy-url]
 * [![Pandas][Pandas-shield]][Pandas-url]
-
+* [![Google BERT][BERT-shield]][BERT-url]
+* [![NLTK][NLTK-shield]][NLTK-url]
+* [![STOPWORDS][STOPWORDS-shield]][STOPWORDS-url]
+* [![WORDNET][WORDNET-shield]][WORDNET-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -45,20 +47,19 @@ Before cloning and using this application, you'll need to install these things o
 ## Installation
 You can install this application by cloning this repository into your current working directory:
 ```sh
-git clone https://github.com/Sriniha/Plant-Watering-System-using-Fuzzy-Logic.git
+git clone https://github.com/Sriniha/MCQ-Generator-using-NLP.git
 ```
 After cloning the repository, you can open the project by Visual Studio Code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Key Features
-* Get and validate input
-* Process input by Fuzzy Logic to calculate suitable flow rate, which consists of 3 steps:
-    * Fuzzification
-    * Fuzzy inference
-    * Defuzzification
-* Display all calculations of these steps and visualize them by plots.
-* A subpage named "***lib***" provides the same features, but by the [*skfuzzy*](https://pythonhosted.org/scikit-fuzzy/) library, for comparison.
+* Summerization of Text using Google BERT Algorithm.
+* Keyword Extraction
+* Sentence Mapping
+* Tokenizers
+* Distractors
+* Assessment of Questions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,30 +73,15 @@ After cloning the repository, you can open the project by Visual Studio Code.
 <!-- Tech stack -->
 [Python-shield]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
-[Streamlit-shield]: https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
-[Streamlit-url]: https://streamlit.io/
 [NumPy-shield]: https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white
 [NumPy-url]: https://numpy.org/
 [Pandas-shield]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
 [Pandas-url]: https://pandas.pydata.org
-[Matplotlib-shield]: https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
-[Matplotlib-url]: https://matplotlib.org/
-[Markdown-shield]: https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white
-[Markdown-url]: https://www.markdownguide.org/
-[HTML5-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
-[HTML5-url]: https://www.w3.org/html/
-[CSS3-shield]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
-[CSS3-url]: https://www.w3.org/Style/CSS/
-[SQLite-shield]: https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white
-[SQLite-url]: https://www.sqlite.org/index.html
-
-<!-- Contact -->
-[GitHub-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
-[GitHub-url]: https://github.com/theEmperorofDaiViet
-[LinkedIn-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
-[LinkedIn-url]: https://www.linkedin.com/in/khiet-to/
-[Gmail-shield]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
-[Facebook-shield]: https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white
-[Facebook-url]: https://www.facebook.com/Khiet.To.Official/
-[Twitter-shield]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
-[Twitter-url]: https://twitter.com/KhietTo
+[BERT-shield]: https://img.shields.io/badge/BERT-%23ffffff.svg?style=for-the-badge&logo=BERT&logoColor=black
+[BERT-url]: https://blog.google/products/search/search-language-understanding-bert/
+[NLTK-shield]: https://img.shields.io/badge/NLTK-000000?style=for-the-badge&logo=NLTK&logoColor=white
+[NLTK-url]: https://www.nltk.org
+[STOPWORDS-shield]: https://img.shields.io/badge/STOPWORDS-%23E34F26.svg?style=for-the-badge&logo=STOPWORDS&logoColor=white
+[STOPWORDS-url]: https://www.nltk.org/api/nltk.text.html?highlight=stopwords
+[WORDNET-shield]: https://img.shields.io/badge/WORDNET-%231572B6.svg?style=for-the-badge&logo=WORDNET3&logoColor=white
+[WORDNET-url]: https://www.nltk.org/howto/wordnet.html
